@@ -1,47 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Me</title>
-         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classes & About – BLESSING'S FITNESS CLUB</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-    <header>
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
-         <div class="container">
-            <a class="navbar-brand" href="index.html">My Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNAV">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNAV">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-                <main class="container my-5">
-                    <h2>About Me</h2>
-                    <p>Hi! I'm a beginner wed developer learning how to use GitHub Page.</p>
-                    <p>This is my first multi-page wedsite, and I'm excited to share it with you!</p>
-                </main>
-                
+  
+</head>
 
-            <footer>
-                <p>&copy; 2023 BLESSING</p>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<body class="bg-dark text-light">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+      <div class="container">
+        <a class="nav-brand" href="index.html">BLESSING'S FITNESS CLUB</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNAV" aria-controls="navbarNAV" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNAV">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Classes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-item" href="contact.html">Contact</a>
+            </li>
+
+            <li class="nav-item ms-lg-3">
+              <a class="nav-item" href="contact.html">#bookBook Free Trial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="py-5 hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-7">
+          <h1 class="fw-bold display-6">Programs for Every Level</h1>
+          <p class="lead text-secondary">Whether you’re starting out or chasing PRs, our coached sessions help you build strength, endurance, and confidence.</p>
+          <div class="d-flex gap-3">
+            <a scheduleView Schedule </a>
+            <a class="nav-brand" href="contact.html">#bookStart Free Trial</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <img src="bless.fitness.webp" alt="classes">
+      </div>
+    </div>
+  </section>
+
+  <main class="container my-5">
+
+<div class="row g-4">
+  <div id="strength" class="col-12 col-md-4">
+    <div class="card h-100 bg-black border-secondary">
+      <div class="card-body">
+        <h4 class="card-title">Strength &amp; Hypertrophy</h4>
+        <p class="card-text text-secondary">Build muscle and get stronger with structured programming and expert coaching.</p>
+        <ul class="text-secondary small mb-3">
+          <li>3–4 days/week</li>
+          <li>Barbell + machines</li>
+          <li>Progressive overload</li>
+        </ul>
+        contact.html#bookJoin</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="hiit" class="col-12 col-md-4">
+    <div class="card h-100 bg-black border-secondary">
+      <div class="card-body">
+        <h4 class="card-title">HIIT &amp; Conditioning</h4>
+        <p class="card-text text-secondary">High‑intensity circuits to boost endurance, performance, and fat loss.</p>
+        <ul class="text-secondary small mb-3">
+          <li>30–45 min sessions</li>
+          <li>All levels welcome</li>
+          <li>Coach-led small groups</li>
+        </ul>
+        contact.html#bookJoin</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="personal" class="col-12 col-md-4">
+    <div class="card h-100 bg-black border-secondary">
+      <div class="card-body">
+        <h4 class="card-title">Personal Coaching</h4>
+        <p class="card-text text-secondary">1:1 coaching and custom plans tailored to your goals and schedule.</p>
+        <ul class="text-secondary small mb-3">
+          <li>Technique focus</li>
+          <li>Nutrition basics</li>
+          <li>Weekly check‑ins</li>
+        </ul>
+        contact.html#bookBook</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="schedule" class="mt-5">
+  <h2 class="mb-3">Weekly Schedule</h2>
+  <div class="table-responsive">
+    <table class="table table-dark table-striped table-hover align-middle">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>06:00</td>
+          <td>HIIT</td>
+          <td>Strength</td>
+          <td>HIIT</td>
+          <td>Strength</td>
+          <td>HIIT</td>
+          <td>Bootcamp</td>
+        </tr>
+        <tr>
+          <td>17:30</td>
+          <td>Strength</td>
+          <td>HIIT</td>
+          <td>Strength</td>
+          <td>HIIT</td>
+          <td>Strength</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-secondary small">* Final times may vary on holidays. Message us on WhatsApp to confirm a slot.</p>
+  contact.html#bookReserve a Class</a>
+</section>
+   
+    <section id="pricing" class="mt-5">
+      <h2 class="mb-3">Memberships</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="p-4 rounded bg-black border border-secondary h-100">
+            <h5>Starter</h5>
+            <p class="text-secondary">8 classes / month</p>
+            <h3 class="fw-bold">P150</h3>
+            <ul class="text-secondary small">
+              <li>Access to group classes</li>
+              <li>Coach guidance</li>
+            </ul>
+            <a class="nav-brand" href="contact.html>#book" </a> class="btn btn-outline-light btn-sm mt  <div class="col-12 col-md-4">
+          <div class="p-4 rounded bg-black border border-secondary h-100">
+            <h5>Unlimited</h5>
+            <p class="text-secondary">All classes</p>
+            <h3 class="fw-bold">P200</h3>
+            <ul class="text-secondary small">
+              <li>Unlimited sessions</li>
+              <li>Program tracking</li>
+            </ul>
+            <a class="nav-brand" href="contact.html">#bookChoose</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="p-4 rounded bg-black border border-secondary h-100">
+            <h5>Personal Coaching</h5>
+            <p class="text-secondary">1:1 sessions</p>
+            <h3 class="fw-bold">P300</h3>
+            <ul class="text-secondary small">
+              <li>Custom plan</li>
+              <li>Weekly check‑ins</li>
+            </ul>
+            <a class="nav-brand" href="contact.html">#bookChoose</a>
+          </div>
+        </div>
+      </div>
+      <p class="text-secondary small mt-2">*</p>
+    </section>
+    <section id="about" class="mt-5">
+      <h2 class="mb-3">About Blessing Fitness</h2>
+      <p class="text-secondary">
+        We’re a community-focused studio in Gaborone offering structured strength and conditioning programs.
+        Our goal is simple: help you train smarter, stay consistent, and enjoy the process.
+      </p>
+      <div class="row g-4 mt-2">
+        <div class="col-12 col-md-6">
+          <div class="p-4 rounded bg-black border border-secondary h-100">
+            <h5>Coaches</h5>
+            <p class="text-secondary mb-0">Certified trainers who care about technique, safety, and results.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="p-4 rounded bg-black border border-secondary h-100">
+            <h5>Facility</h5>
+            <p class="text-secondary mb-0">Quality barbells, racks, conditioning tools, and clean changing areas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-top border-secondary py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0 text-secondary">© <span id="year"></span> Blessing Fitness</p>
+      <div class="d-flex gap-3">
+        #Instagram</a>
+        #Facebook</a>
+        <a 26778383413WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-        </body>
-        </html>
+  
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
